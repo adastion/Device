@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/svg/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Home</title></head>
+
+<body>
+    <div class="container">
+        <input id="cb" type="checkbox" class="visually-hidden">
+        <header class="all-content"><div class="all-content header">
+  <div class="header__logo">
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg">
+      <use xlink:href="assets/images/sprite.svg#logo"></use>
+    </svg>
+  </div>
+  <nav>
+    <ul class="parts-nav header__navigation">
+      <li class="header__search">
+        <form action="/" method="post" class="header__form">
+          <svg class="header__search-icon">
+            <use xlink:href="assets/images/sprite.svg#search"></use>
+          </svg>
+          <input class="input" type="search" placeholder="Поиск по сайту">
+          <button class="btn header__btn-search">Найти</button>
+          <span class="header__line-focus"></span>
+        </form>
+      </li>
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link">Войти</a>
+        <svg class="parts-nav__icon header__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#user"></use>
+        </svg>
+      </li>
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link">Сравнить</a>
+        <svg class="parts-nav__icon header__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#compare"></use>
+        </svg>
+      </li>
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link">Корзина</a>
+        <svg class="parts-nav__icon header__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#cart"></use>
+        </svg>
+      </li>
+    </ul>
+  </nav>
+  <ul class="header__menu">
+    <li class="header__catalog">
+      <label for="cb" class="btn header__btn-catalog" tabindex="0">Каталог товаров
+        <svg class="header__icon-plus">
+          <use xlink:href="assets/images/sprite.svg#plus"></use>
+        </svg>
+      </label>
+      <ul class="header__submenu">
+        <li class="header__subitem">
+          <a href="#" class="btn header__link-submenu">Виртуальная реальность</a>
+          <a href="cotalog.html" class="btn header__link-submenu">Моноподы для селфи</a>
+          <a href="#" class="btn header__link-submenu">Экшн-камеры</a>
+        </li>
+        <li class="header__subitem">
+          <a href="#" class="btn header__link-submenu">Фитнес-браслеты</a>
+          <a href="#" class="btn header__link-submenu">Умные часы</a>
+        </li>
+        <li class="header__subitem">
+          <a href="#" class="btn header__link-submenu">Квадрокоптеры</a>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#" class="btn">Доставка</a></li>
+    <li><a href="#" class="btn">Гарантия</a></li>
+    <li><a href="#" class="btn">Контакты</a></li>
+  </ul>
+</div></header>
+        <main>
+<div class="all-content slider">
+  <input class="visually-hidden slider__input" type="radio" name="s" id="sl_1" checked>
+  <input class="visually-hidden slider__input" type="radio" name="s" id="sl_2">
+  <input class="visually-hidden slider__input" type="radio" name="s" id="sl_3">
+  <div id="slide_1" class="slider__slide">
+    <span class="slider__number">01</span>
+    <div class="slider__block">
+      <div class="slider__img-wrap">
+        <img src="assets/images/slider-1.png" alt="pic">
+      </div>
+    </div>
+    <div class="slider__block slider__block--info">
+      <p class="slider__slogan">Делай селфи, как Бен Стиллер!</p>
+      <div>
+        <p class="slider__description">Самая длинная палка для селфи доступна в нашем магазине.</p>
+        <p class="slider__description">Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+      </div>
+      <div class="slider__nav-wrap">
+        <a href="#" class="btn-line">Подробнее</a>
+        <ul class="slider__list-nav">
+          <li>
+            <label for="sl_1" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_2" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_3" class="slider__btn-radio"></label>
+          </li>
+        </ul>
+      </div>
+      <ul class="slider__list-specifications">
+        <li>
+          <p class="slider__meaning">8,5 м</p>
+          <p class="slider__quality">Длина палки</p>
+        </li>
+        <li>
+          <p class="slider__meaning">5 кг</p>
+          <p class="slider__quality">Вес палки</p>
+        </li>
+        <li>
+          <p class="slider__meaning">Карбон</p>
+          <p class="slider__quality">Материал</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="slide_2" class="slider__slide">
+    <span class="slider__number">02</span>
+    <div class="slider__block">
+      <div class="slider__img-wrap">
+        <img src="assets/images/slider-2.png" alt="pic">
+      </div>
+    </div>
+    <div class="slider__block slider__block--info">
+      <p class="slider__slogan">Худеем правильно!</p>
+      <p class="slider__description">Мотивирующие фитнес-браслеты помогут найти в себе силыне пропускать занятия и
+        соблюдать диету.</p>
+      <div class="slider__nav-wrap">
+        <a href="#" class="btn-line">Подробнее</a>
+        <ul class="slider__list-nav">
+          <li>
+            <label for="sl_1" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_2" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_3" class="slider__btn-radio"></label>
+          </li>
+        </ul>
+      </div>
+      <ul class="slider__list-specifications">
+        <li>
+          <p class="slider__meaning">48 часов</p>
+          <p class="slider__quality">Без подзарядки</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="slide_3" class="slider__slide">
+    <span class="slider__number">03</span>
+    <div class="slider__block">
+      <div class="slider__img-wrap">
+        <img src="assets/images/slider-3.png" alt="pic">
+      </div>
+    </div>
+    <div class="slider__block slider__block--info">
+      <p class="slider__slogan">Порхает как бабочка, жалит как пчела!</p>
+      <p class="slider__description">Этот обычный, на первый взгляд, квадрокоптер оснащен</p>
+      <p class="slider__description">мощным лазером, замаскированным под стандартную камеру.</p>
+      <div class="slider__nav-wrap">
+        <a href="#" class="btn-line">Подробнее</a>
+        <ul class="slider__list-nav">
+          <li>
+            <label for="sl_1" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_2" class="slider__btn-radio"></label>
+          </li>
+          <li>
+            <label for="sl_3" class="slider__btn-radio"></label>
+          </li>
+        </ul>
+      </div>
+      <ul class="slider__list-specifications">
+        <li>
+          <p class="slider__meaning">800 м</p>
+          <p class="slider__quality">Дальность полета</p>
+        </li>
+        <li>
+          <p class="slider__meaning">50 м</p>
+          <p class="slider__quality">Радиус поражения</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="all-content popular">
+  <h1 class="visually-hidden">Популярныйе товары</h1>
+  <ul class="popular__list">
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="97" height="55">
+            <use xlink:href="assets/images/sprite.svg#popular-1"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Виртуальная реальность</h3>
+    </li>
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="86" height="117">
+            <use xlink:href="assets/images/sprite.svg#popular-2"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Моноподы для селфи</h3>
+    </li>
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="71" height="87">
+            <use xlink:href="assets/images/sprite.svg#popular-3"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Экшн-камеры</h3>
+    </li>
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="107" height="65">
+            <use xlink:href="assets/images/sprite.svg#popular-4"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Фитнес-браслеты</h3>
+    </li>
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="56" height="98">
+            <use xlink:href="assets/images/sprite.svg#popular-5"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Умные часы</h3>
+    </li>
+    <li class="popular__item">
+      <a href="#" class="popular__link">
+        <div class="popular__wrap">
+          <svg class="popular__icon" width="132" height="69">
+            <use xlink:href="assets/images/sprite.svg#popular-6"></use>
+          </svg>
+        </div>
+      </a>
+      <h3 class="popular__name">Квадрокоптеры</h3>
+    </li>
+  </ul>
+</section>
+<div class="services">
+  <input id="delivery" class="visually-hidden" type="radio" name="services" checked>
+  <input id="warranty" class="visually-hidden" type="radio" name="services">
+  <input id="credit" class="visually-hidden" type="radio" name="services">
+  <div class="services__nav-wrap">
+    <ul class="services__nav-list">
+      <li id="nav-btn_1" class="services__item">
+        <label for="delivery" class="btn-line services__btn">Доставка</label>
+      </li>
+      <li id="nav-btn_2" class="services__item">
+        <label for="warranty" class="btn-line services__btn">Гарантия</label>
+      </li>
+      <li id="nav-btn_3" class="services__item">
+        <label for="credit" class="btn-line services__btn">Кредит</label>
+      </li>
+    </ul>
+  </div>
+  <div class="services__slides">
+    <div id="slideServisece_1" class="services__slide">
+      <div class="services__block">
+        <h2 class="services__title">Доставка</h2>
+        <p class="services__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+          Ведь мы неплохо заработаем, поднимая
+          его на ваш этаж.</p>
+      </div>
+      <div class="services__icon">
+        <img src="assets/images/svg-static/delivery.svg" alt="pic">
+      </div>
+    </div>
+    <div id="slideServisece_2" class="services__slide">
+      <div class="services__block">
+        <h2 class="services__title">Гарантия</h2>
+        <p class="services__text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы
+          выдадим ам новый.
+          Товар, не дом, конечно же.</p>
+      </div>
+      <div class="services__icon">
+        <img src="assets/images/svg-static/warranty.svg" alt="pic">
+      </div>
+    </div>
+    <div id="slideServisece_3" class="services__slide">
+      <div class="services__block">
+        <h2 class="services__title">Кредит</h2>
+        <p class="services__text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее
+          выгодные
+          условия кредита. Выгодные для нашего банка, разумеется.</p>
+      </div>
+      <div class="services__icon">
+        <img src="assets/images/svg-static/credit.svg" alt="pic">
+      </div>
+    </div>
+  </div>
+</div>
+<section class="all-content logotypes">
+  <h2 class="visually-hidden">Наши партнёры</h2>
+  <ul class="logotypes__list">
+    <li>
+      <a href="#" class="logotypes__link">
+        <img src="assets/images/djl.png" alt="images" class="logotypes__logotype">
+        <img src="assets/images/djl_color.png" alt="images-hover"
+          class="logotypes__logotype logotypes__logotype--hidden">
+      </a>
+    </li>
+    <li>
+      <a href="#" class="logotypes__link">
+        <img src="assets/images/sp.png" alt="images" class="logotypes__logotype">
+        <img src="assets/images/sp_color.png" alt="images-hover"
+          class="logotypes__logotype logotypes__logotype--hidden">
+      </a>
+    </li>
+    <li>
+      <a href="#" class="logotypes__link">
+        <img src="assets/images/gopro.png" alt="images" class="logotypes__logotype">
+        <img src="assets/images/gopro_color.png" alt="images-hover"
+          class="logotypes__logotype logotypes__logotype--hidden">
+      </a>
+    </li>
+    <li>
+      <a href="#" class="logotypes__link">
+        <img src="assets/images/vive.png" alt="images" class="logotypes__logotype">
+        <img src="assets/images/vive_color.png" alt="images-hover"
+          class="logotypes__logotype logotypes__logotype--hidden">
+      </a>
+    </li>
+  </ul>
+</section>
+<section class="all-content about">
+  <h2 class="visually-hidden">О нас и связь с нами</h2>
+  <div class="about__block about__block--padding">
+    <h4 class="about__title">О нас</h4>
+    <div class="about__text-wrap about__text-wrap--width">
+      <p class="about__text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+      <p class="about__text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими
+        транспортными компаниями:</p>
+    </div>
+    <ul class="about__list">
+      <li>Деловые Линии</li>
+      <li>Автотрейдинг</li>
+      <li>ЖелДорЭкспедиция</li>
+    </ul>
+    <button class="btn-line about__btn">Подробнее о нас</button>
+  </div>
+  <div class="about__block">
+    <h4 class="about__title">Контакты</h4>
+    <div class="about__text-wrap">
+      <p class="about__text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить
+        работоспособность покупки. Всякое бывает.</p>
+    </div>
+    <div class="about__mini-map"></div>
+    <button class="btn-line about__btn">Напишите нам</button>
+  </div>
+</section>
+</main>
+        <footer><div class="all-content footer">
+  <div class="footer__block">
+    <div class="footer__logo">
+      <a href="#" class="logo__link">
+        <svg class="logo logo--footer">
+          <use xlink:href="assets/images/sprite.svg#logo"></use>
+        </svg>
+      </a>
+    </div>
+    <ul class="parts-nav footer__navigation">
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link  parts-nav__link--color">Войти</a>
+        <svg class="parts-nav__icon parts-nav__icon--color footer__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#user"></use>
+        </svg>
+      </li>
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link parts-nav__link--color">Сравнить</a>
+        <svg class="parts-nav__icon parts-nav__icon--color footer__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#compare"></use>
+        </svg>
+      </li>
+      <li class="parts-nav__item">
+        <a href="#" class="btn parts-nav__link parts-nav__link--color">Корзина</a>
+        <svg class="parts-nav__icon parts-nav__icon--color footer__svg-icon">
+          <use xlink:href="assets/images/sprite.svg#cart"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
+  <div class="footer__block">
+    <p class="footer__adress">г. Москва, ул. Строителей, 15</p>
+    <p class="footer__tel">Тел.: <a href="tel: +74954959595" class="btn">+7 (495) 495-95-95</a></p>
+    <ul class="footer__list">
+      <li><a href="#" class="btn">Доставка</a></li>
+      <li><a href="#" class="btn">Гарантия</a></li>
+      <li><a href="#" class="btn">Контакты</a></li>
+    </ul>
+  </div>
+  <div class="footer__block">
+    <div class="footer__line"></div>
+    <ul class="footer__socil">
+      <li>
+        <a href="#" class="footer__link">
+          <svg class="footer__social-icon">
+            <use xlink:href="assets/images/sprite.svg#fb"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="footer__link">
+          <svg class="footer__social-icon">
+            <use xlink:href="assets/images/sprite.svg#vk"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="footer__link">
+          <svg class="footer__social-icon">
+            <use xlink:href="assets/images/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <a href="http://htmlacademy.ru" class="btn">
+      <svg class="footer__icon-htmlacademy">
+        <use xlink:href="assets/images/sprite.svg#logo-html"></use>
+      </svg>
+    </a>
+  </div>
+</div></footer>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
