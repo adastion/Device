@@ -15,9 +15,11 @@
         <input id="cb" type="checkbox" class="visually-hidden">
         <header class="all-content"><div class="all-content header">
   <div class="header__logo">
-    <svg class="logo" xmlns="http://www.w3.org/2000/svg">
-      <use xlink:href="assets/images/sprite.svg#logo"></use>
-    </svg>
+    <a href="\#" class="logo__link logo__link--hidden">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="assets/images/sprite.svg#logo"></use>
+      </svg>
+    </a>
   </div>
   <nav>
     <ul class="parts-nav header__navigation">
@@ -32,7 +34,9 @@
         </form>
       </li>
       <li class="parts-nav__item">
-        <a href="#" class="btn parts-nav__link">Войти</a>
+        <span class="parts-nav__authorizetion ">Владислав Черняк</span>
+        <a href="#" class="btn parts-nav__link parts-nav__link--hidden parts-nav__link--authorized">Выйти</a>
+        <a href="#" class="btn parts-nav__link ">Войти</a>
         <svg class="parts-nav__icon header__svg-icon">
           <use xlink:href="assets/images/sprite.svg#user"></use>
         </svg>
@@ -58,7 +62,7 @@
           <use xlink:href="assets/images/sprite.svg#plus"></use>
         </svg>
       </label>
-      <ul class="header__submenu">
+      <ul class="header__submenu header__submenu--page-home">
         <li class="header__subitem">
           <a href="#" class="btn header__link-submenu">Виртуальная реальность</a>
           <a href="cotalog.html" class="btn header__link-submenu">Моноподы для селфи</a>
@@ -373,12 +377,41 @@
     <div class="about__mini-map"></div>
     <button class="btn-line about__btn">Напишите нам</button>
   </div>
+  <div class="modal about__modal-write">
+    <svg class="modal__close">
+      <use xlink:href="assets/images/sprite.svg#modal-close"></use>
+    </svg>
+    <form action="" method="post" class="about__form">
+      <ul class="about__wrap-inputs">
+        <li>
+          <label for="name">Ваше имя:</label>
+          <input id="name" type="text" class="input input--bg about__input" placeholder="Имя Фамилия">
+        </li>
+        <li>
+          <label for="email">Ваш e-mail:</label>
+          <input id="email" type="email" class="input input--bg about__input" placeholder="email@example.com">
+        </li>
+      </ul>
+      <label for="text">Текст письма:</label>
+      <textarea id="text" class="input input--bg input--textarea about__input"
+        placeholder="В свободной форме"></textarea>
+      <button class="btn btn-line">Отправить</button>
+    </form>
+  </div>
+  <div class="modal about__map-popup">
+    <svg class="modal__close">
+      <use xlink:href="assets/images/sprite.svg#modal-close"></use>
+    </svg>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.112548877997!2d37.52742931589823!3d55.68703098053582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sby!4v1658607829750!5m2!1sru!2sby"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 </section>
 </main>
         <footer><div class="all-content footer">
   <div class="footer__block">
     <div class="footer__logo">
-      <a href="#" class="logo__link">
+      <a href="\#" class="logo__link logo__link--hidden">
         <svg class="logo logo--footer">
           <use xlink:href="assets/images/sprite.svg#logo"></use>
         </svg>
