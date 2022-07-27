@@ -100,12 +100,19 @@
     <form action="src/" method="post" class="filter__form-wrap">
       <div class="filter__block">
         <h3 class="filter__subtitle">Стоимость</h3>
-        <input type="range" class="filter__range-slider">
-        <div class="filter__price-wrap">
-          <input type="number" placeholder="от 0">
-          <input type="number" placeholder="до 5000">
-        </div>
-      </div>
+        <div class="range">
+          <div class="range__container">
+            <div class="range__track"></div>
+            <input type="range" min="0" max="5000" value="10" id="slider_1" oninput="slOne()">
+            <input type="range" min="0" max="5000" value="3005" id="slider_2" oninput="slTwo()">
+          </div>
+          <div class="range__price-wrap">
+            <span id="outValue_1">0</span>
+            <span id="outValue_2">5000</span>
+            <!-- <input id="outValue_1" type="text" placeholder="от 0">
+            <input id="outValue_2" type="text" placeholder="до 5000"> -->
+          </div>
+        </div>      </div>
       <div class="filter__block">
         <h3 class="filter__subtitle">Цвет</h3>
         <ul>
